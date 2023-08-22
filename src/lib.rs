@@ -1,3 +1,8 @@
+#[cfg(test)]
+mod test;
+#[cfg(test)]
+mod test_128;
+
 use std::ptr::read_unaligned;
 
 pub const K0: u64 = 0xc3a5c85c97cb3127;
@@ -7,6 +12,7 @@ pub const K3: u64 = 0xc949d7c7509e6557;
 pub const K_MUL: u64 = 0x9ddfea08eb382d69;
 
 // low bits, high bits
+#[derive(Debug, Clone, Copy)]
 pub struct U128(u64, u64);
 
 impl From<u128> for U128 {

@@ -1,4 +1,7 @@
 [package]
-name = "cityhash"
+name = "cityhash-102-rs"
 version = "0.1.0"
 edition = "2021"
+
+[dev-dependencies]
+paste = "1.0.14"
