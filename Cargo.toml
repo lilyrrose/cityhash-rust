@@ -2,6 +2,11 @@
 name = "cityhash-102-rs"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+authors = ["Lillian Armes <opusthrow@proton.me>"]
+description = "Faithful reimplementation of CityHash v1.0.2 64bit and 128bit hashes."
+repository = "https://github.com/opusbopus/cityhash-rust"
+keywords = ["cityhash"]
 
 [dev-dependencies]
 paste = "1.0.14"
