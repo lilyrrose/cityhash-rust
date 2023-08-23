@@ -1,3 +1,5 @@
+#![allow(clippy::module_name_repetitions)]
+
 #[macro_export]
 macro_rules! define_test {
     ($bits:expr, $input_size:expr, $input:literal, $expected_output:expr) => {

@@ -1,3 +1,5 @@
+#![allow(clippy::unreadable_literal)]
+
 use super::define_test;
 
 define_test!(128, 0, b"", 80694799047657878041827770981907733035);
